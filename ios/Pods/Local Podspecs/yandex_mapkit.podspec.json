@@ -1,0 +1,37 @@
+{
+  "name": "yandex_mapkit",
+  "version": "0.0.1",
+  "summary": "A new flutter plugin project.",
+  "description": "A new flutter plugin project.",
+  "homepage": "http://example.com",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "Your Company": "email@example.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "public_header_files": "Classes/**/*.h",
+  "static_framework": true,
+  "dependencies": {
+    "Flutter": [
+
+    ],
+    "YandexMapsMobile": [
+      "4.6.1-full"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "OTHER_SWIFT_FLAGS": "$(inherited) -D YANDEX_MAPKIT_FULL"
+  },
+  "source_files": [
+    "Classes/*",
+    "Classes/lite/*",
+    "Classes/full/*"
+  ],
+  "platforms": {
+    "ios": "12.0"
+  }
+}
