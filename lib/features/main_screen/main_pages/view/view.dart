@@ -1,0 +1,13 @@
+export 'main_page.dart';
+export 'gas_station_page.dart';
+export 'menu_page.dart';
+export 'claim_page.dart';
+export 'add_card_page.dart';
+export 'invite_page.dart';
+export 'bills_page.dart';
+export 'about_page.dart';
+export 'faq_page.dart';
+export 'bonus_page.dart';
+export 'support_page.dart';
+export 'notifications_page.dart';
+export 'personal_data_page.dart';

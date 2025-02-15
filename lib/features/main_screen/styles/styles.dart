@@ -1,0 +1,1 @@
+export '../styles/view/view.dart';
