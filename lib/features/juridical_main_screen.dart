@@ -1,0 +1,1 @@
+export '../juridical_main_screen/view/view.dart';

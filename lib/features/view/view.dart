@@ -1,0 +1,1 @@
+export 'juridical_home_screen.dart';
